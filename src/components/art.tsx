@@ -73,6 +73,8 @@ export function Sack({ className }: { className?: string }) {
         x="210"
         y="278"
         textAnchor="middle"
+        textLength="236"
+        lengthAdjust="spacingAndGlyphs"
         fill="#e9eee5"
         fontSize="104"
         style={{
@@ -90,7 +92,9 @@ export function Sack({ className }: { className?: string }) {
         y="346"
         textAnchor="middle"
         fill="#e9eee5"
-        fontSize="30"
+        fontSize="26"
+        textLength="236"
+        lengthAdjust="spacingAndGlyphs"
         style={{ fontFamily: "var(--font-plex-mono)", fontWeight: 500 }}
       >
         TOSTADO LOS JUEVES
@@ -126,7 +130,7 @@ export function RoastCurve({ className }: { className?: string }) {
       {[316, 206, 96].map((y, i) => (
         <g key={y}>
           <line x1="40" x2="620" y1={y} y2={y} stroke="#14201a" strokeOpacity="0.28" strokeDasharray="2 6" />
-          <text x="44" y={y - 8} fill="#3a4c42" style={mono}>
+          <text x="620" y={y + 22} textAnchor="end" fill="#3a4c42" style={mono}>
             {[100, 150, 200][i]}°
           </text>
         </g>
@@ -168,7 +172,7 @@ export function RoastCurve({ className }: { className?: string }) {
         <text x="476" y="78" textAnchor="end">
           Primer crack
         </text>
-        <text x="571" y="130" textAnchor="middle">
+        <text x="571" y="58" textAnchor="middle">
           Salida
         </text>
         <text x="112" y="388" textAnchor="middle">

@@ -17,9 +17,9 @@ const STAGES = [
 export default function Home() {
   return (
     <>
-      <section className="mx-auto grid max-w-7xl items-center gap-8 px-5 pb-16 pt-10 md:grid-cols-[1.25fr_0.75fr] md:px-8 md:pt-14 lg:gap-16">
+      <section className="mx-auto grid max-w-7xl items-center gap-8 px-5 pb-16 pt-10 md:grid-cols-[1.5fr_0.7fr] md:px-8 md:pt-14 lg:gap-16">
         <div>
-          <h1 className="stencil text-[clamp(3.4rem,10.5vw,8.6rem)]">
+          <h1 className="stencil text-[clamp(3rem,5.6vw,5.6rem)]">
             Tostamos los jueves.
             <br />
             <span className="text-cherry">Lo tomas el viernes.</span>

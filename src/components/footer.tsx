@@ -3,7 +3,7 @@ import { HOURS_ROWS, NAV, SITE } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="on-dark mt-24 bg-forest text-paper">
+    <footer className="on-dark mt-16 bg-forest text-paper">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 md:grid-cols-[1.4fr_1fr_1fr] md:px-8">
         <div>
           <p className="stencil text-6xl md:text-7xl">{SITE.name}</p>

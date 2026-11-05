@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function NotFound() {
   return (
     <section className="relative isolate overflow-hidden">
-      <BeanScatter className="absolute inset-0 -z-10 h-full w-full opacity-[0.16]" />
+      <BeanScatter className="absolute inset-0 -z-10 h-full w-full opacity-[0.1]" />
       <div className="mx-auto max-w-7xl px-5 py-20 md:px-8 md:py-32">
         <p className="mono text-cherry">Error 404</p>
         <h1 className="stencil mt-3 text-[clamp(3.4rem,10vw,8rem)]">Esa página no existe</h1>

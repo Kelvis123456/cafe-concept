@@ -56,8 +56,8 @@ export default function Nosotros() {
         <div className="border-l-4 border-cherry pl-5 md:pl-8">
           <h2 className="stencil text-4xl md:text-5xl">Qué es este sitio</h2>
           <p className="mt-4 max-w-[56ch]">
-            Un ejercicio de diseño y desarrollo web. No hay local, equipo, equipos de tueste ni clientes. Los precios,
-            el horario y los cafés son inventados para que la página tenga contenido que se pueda leer de verdad.
+            Un ejercicio de diseño y desarrollo web. No hay local, equipo de tueste ni clientes. Los precios, el horario
+            y los cafés son inventados para que la página tenga contenido que se pueda leer de verdad.
           </p>
           <p className="mt-4">
             <Link href="/reservar/" className="link font-bold">
