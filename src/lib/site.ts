@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Hornilla",
   descriptor: "Tostadores de café",
-  url: "https://hornilla.example",
+  url: "https://kelvis-hornilla.vercel.app",
   locale: "es_DO",
   disclaimer: "Proyecto conceptual, sin relación con ningún negocio real.",
 };
