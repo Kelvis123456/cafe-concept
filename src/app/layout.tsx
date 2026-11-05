@@ -35,7 +35,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CafeOrCoffeeShop",
   name: SITE.name,
-  description: `${description}`,
+  description,
   url: SITE.url,
   servesCuisine: "Café de especialidad",
   priceRange: "RD$",
