@@ -35,5 +35,5 @@ El detalle, con los números de contraste, está en [docs/decisions.md](docs/dec
 Terminado como concepto. Lo que no hice:
 
 - Lighthouse no lo corrí (no lo tengo disponible sin conexión). Comprobé a mano contraste, foco con teclado, desbordes a 400 y 1280 px y el flujo del formulario.
-- El dominio `hornilla.example` en canonical, sitemap y Open Graph es un marcador; hay que cambiarlo en `src/lib/site.ts` si se publica.
+- El sitio está desplegado en https://kelvis-hornilla.vercel.app (Vercel, plan gratuito). Esa dirección está en `src/lib/site.ts` y alimenta canonical, sitemap y Open Graph; hay que cambiarla ahí si el sitio se mueve de dominio.
 - No lo probé en Safari ni Firefox, solo en Chrome.
